@@ -1,0 +1,6 @@
+seed: 42
+records: 6000
+semantic_clusters: 8
+test_batches: 4
+review_budget: 0.25
+hotspot_disagreement_threshold: 0.20
