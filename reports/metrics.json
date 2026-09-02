@@ -1,0 +1,38 @@
+{
+  "split": {
+    "train_rows": 5000,
+    "test_rows": 1000,
+    "train_end_batch": 19,
+    "test_start_batch": 20
+  },
+  "global_agreement": {
+    "gwet_ac1": 0.33534592450288175,
+    "disagreement_rate": 0.333
+  },
+  "baseline_global_risk": {
+    "roc_auc": 0.5,
+    "pr_auc": 0.333,
+    "brier": 0.22220704000000002,
+    "error_capture_at_25pct_review": 0.23123123123123124,
+    "residual_error_rate": 0.3413333333333333
+  },
+  "cluster_aware_risk_model": {
+    "roc_auc": 0.7733655694675184,
+    "pr_auc": 0.6264328216096086,
+    "brier": 0.17629396530407832,
+    "error_capture_at_25pct_review": 0.4924924924924925,
+    "residual_error_rate": 0.22533333333333333
+  },
+  "relative_error_capture_gain": 1.1298701298701297,
+  "persona_sensitivity": {
+    "mean_context_flip_rate": 0.08174231446322844
+  },
+  "intervention": {
+    "label_disagreement": 0.35311572700296734,
+    "independent_first_disagreement": 0.2492753623188406
+  },
+  "hotspots": {
+    "count": 5,
+    "highest_cluster_rate": 0.6571428571428571
+  }
+}
